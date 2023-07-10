@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+img{
+    width: 1000px;
+}
+#nbabot{
+    background: linear-gradient(to right,rgb(100, 18, 124) 50%,yellow);
+    position:absolute;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.menubot{
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+   background-color: ghostwhite;
+    z-index: 10;
+}
+.listbot{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+.inbot{
+    display: table-cell;
+    vertical-align:middle;
+}
+#sectionbot{
+    margin-top: 800px;
+}
